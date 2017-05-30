@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @analysis.description %>
+</p>
+
+<p>
+  <strong>Video game:</strong>
+  <%= @analysis.video_game_id %>
+</p>
+
+<p>
+  <strong>Author:</strong>
+  <%= @analysis.author %>
+</p>
+
+<p>
+  <strong>Posted ad:</strong>
+  <%= @analysis.posted_ad %>
+</p>
+
+<%= link_to 'Edit', edit_analysis_path(@analysis) %> |
+<%= link_to 'Back', analyses_path %>

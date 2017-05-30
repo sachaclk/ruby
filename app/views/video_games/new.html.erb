@@ -1,0 +1,10 @@
+<h1>Ajouter un Video Game</h1>
+
+<%= form_for(VideoGame.new) do |f| %>
+    <%= f.text_field :title, placeholder: "Titre du jeu" %>
+    <%= f.text_area :description, placeholder: "Description du jeu"  %>
+    <%= f.text_field :editor, placeholder: "Editeur" %>
+    <%= f.text_field :device, placeholder: "Console" %>
+    <%= f.submit %>
+
+<% end %>

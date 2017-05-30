@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  description: MyString
+  video_game_id: 1
+  author: MyString
+  posted_ad: 2017-05-30 11:38:02
+
+two:
+  description: MyString
+  video_game_id: 1
+  author: MyString
+  posted_ad: 2017-05-30 11:38:02
